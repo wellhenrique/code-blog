@@ -1,3 +1,5 @@
+import { Input } from "../forms/Input";
+
 export function Header() {
   return (
     <header
@@ -9,6 +11,8 @@ export function Header() {
 
         <button className="text-2xl leading-7">blog</button>
       </div>
+
+      <Input type="button" className="w-full h-9 bg-slate-50 opacity-80" />
     </header>
   );
 }

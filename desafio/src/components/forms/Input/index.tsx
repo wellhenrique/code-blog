@@ -1,3 +1,5 @@
-export function Input() {
-  return <input type="button" value="" />;
+interface InputProps {}
+
+export function Input(props: InputProps) {
+  return <input {...props} />;
 }
